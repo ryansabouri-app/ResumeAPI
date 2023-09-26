@@ -13,7 +13,6 @@ const resumeSchema = new mongoose.Schema({
   project3: [String],
   languages: [String],
   tools: [String]
-  // Add more fields as needed
 });
 
 module.exports = mongoose.model('Resume', resumeSchema);

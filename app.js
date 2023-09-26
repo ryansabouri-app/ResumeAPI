@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000;
 // Middleware for parsing JSON requests
 app.use(express.json());
 
-// Connect to MongoDB (replace with your MongoDB connection URL)
+// Connect to MongoDB (replace with MongoDB connection URL)
 mongoose.connect('mongodb://localhost:27017/resumedb', {
   useNewUrlParser: true,
   useUnifiedTopology: true,

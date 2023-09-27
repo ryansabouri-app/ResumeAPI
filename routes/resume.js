@@ -9,7 +9,6 @@ router.get('/', async (req, res) => {
     const resume = await Resume.findOne();
     res.json(resume);
     console.log("Get request success")
-    console.log(resume)
   } catch (error) {
     res.status(500).json({ error: 'Internal server error' });
   }
